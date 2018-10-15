@@ -285,8 +285,11 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
     m_Devices:
-    - Oculus
     - OpenVR
+    - stereo
+    - Oculus
+    - None
+    - MockHMD
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
@@ -671,7 +674,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 52a30ba1-a389-435c-a769-87cb001fd757
-  projectName: 
+  projectName: Vr_StrawberryThrow
   organizationId: pandawashere
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

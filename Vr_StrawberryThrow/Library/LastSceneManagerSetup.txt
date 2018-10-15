@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VRSampleScenes/Scenes/Examples/Reticle.unity
+- path: Assets/Scenes/basescene.unity
   isLoaded: 1
   isActive: 1
