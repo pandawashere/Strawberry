@@ -285,11 +285,10 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
     m_Devices:
-    - OpenVR
-    - stereo
     - Oculus
+    - stereo
+    - OpenVR
     - None
-    - MockHMD
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
