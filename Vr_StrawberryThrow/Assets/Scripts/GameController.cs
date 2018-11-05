@@ -6,11 +6,19 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
+
+    public static GameController singleton;
     private int score;
     public Text scoreText;
 
-
-	void Start () {
+    private void Awake()
+    {
+        if(singleton == null)
+        {
+            singleton = this;
+        }
+    }
+    void Start () {
         score = 0;
         UpdateScore();
 	}
